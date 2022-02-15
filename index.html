@@ -47,7 +47,7 @@
         event.preventDefault()
         const username = document.getElementById('username').value
         const password = document.getElementById('password').value
-        const result = await fetch('https://examples1337.herokuapp.com', { //fetch делает запрос использ промис
+        const result = await fetch('https://examples1337.herokuapp.com/api/register', { //fetch делает запрос использ промис
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json '   //полное описание данных которое находится в теле
