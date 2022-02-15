@@ -47,7 +47,7 @@
         event.preventDefault()
         const username = document.getElementById('username').value
         const password = document.getElementById('password').value
-        const result = await fetch('https://examples1337.herokuapp.com', { 
+        const result = await fetch('https://examples1337.herokuapp.com/api/register', { 
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json '
